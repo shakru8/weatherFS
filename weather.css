@@ -1,0 +1,91 @@
+*{box-sizing: border-box ;}
+
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0%;
+    align-items: center;
+    font-family: 'Courier New', monospace;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#pickingPart {
+    border: 1.5px solid #4b4c62;
+    height: 20%;
+    width: 100%;
+    background-color:#4b4c62;
+
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+#title{
+    height: 20%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+#forecastTable {
+    display: flex;
+    border: 1.5px solid #4b4c62;
+    height: 80%;
+    width: 100%;
+    background-color: #4b4c62;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+    
+}
+
+#card {
+    border: 3px outset rgb(102, 102, 102);
+    border-radius: 10px;
+    display: flex;
+    height: 33%;
+    width: 12%;
+    background-color: #969191; 
+    padding: 5px;
+    
+    justify-content: space-between;
+    align-items: center; 
+    flex-direction: column;
+}
+
+#cardTitle {
+    border: 3px solid black;
+    font-size: 100%;
+    color:#352e48;
+
+    text-align: center;
+    height: 15%;
+    width: 100%;
+}
+
+#cardPhoto {
+    display: flex;
+    border: 3px solid black;
+    height: 65%;
+    width: 100%;
+}
+
+#cardTmp {
+    border: 3px solid black;
+    height: 20%;
+    width: 100%;
+
+    text-align: center;
+    display: block;
+}

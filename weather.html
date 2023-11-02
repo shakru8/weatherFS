@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+    <script defer src="weather.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="pickingPart">
+            <h1>72 hours weather forecast &#x1F31E; &#x2601;</h1>
+            <label for="countrySelect">countries-</label>
+            <select id="countrySelect">
+                <option selected disabled>--Select a country--</option>
+            </select>
+
+            <label for="citySelect">Cities-</label>
+            <select id="citySelect">
+                <option selected disabled>--Select a city--</option>
+            </select>
+            <div id="title"></div>
+        </div>
+        <div id="forecastTable"></div>
+    </div>
+</body>
+</html>
